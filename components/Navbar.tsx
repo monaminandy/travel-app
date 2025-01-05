@@ -25,6 +25,12 @@ const Navbar = () => {
             variant="btn_dark_green"
             />
         </div>
+        <Image
+        src="/hamburger.svg"
+        alt="menu"
+        width={40}
+        height={40}
+        className="lg:hidden inline-block cursor-pointer" />
         
     </nav>
   )
